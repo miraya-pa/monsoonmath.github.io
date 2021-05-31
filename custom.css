@@ -577,3 +577,216 @@ table td {
 .highlight .il {
     color: #099;
 }
+@font-face {
+    font-family: "Lora";
+    src: url("../assets/fonts/lora/Lora-Regular.ttf");
+}
+@font-face {
+    font-family: "Lora";
+    src: url("../assets/fonts/lora/Lora-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Lora";
+    src: url("../assets/fonts/lora/Lora-Italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: "SiteTitleFont";
+    src: url("../assets/fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../assets/fonts/OpenSans-Regular.ttf");
+}
+strong {
+    font-weight: bold;
+    font-family: "Lora", serif;
+}
+body {
+    background-color: #eaeaea;
+    color: #111;
+    font-family: "Lora", serif;
+}
+blockquote {
+    color: #111;
+    font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "OpenSans", sans-serif;
+}
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: #da8014;
+    color: #e87e00;
+}
+a:hover {
+    text-decoration: none;
+    color: #e87e00;
+    color: #e79029;
+}
+.wrapper {
+    max-width: -webkit-calc(calc(3 * 320px) - (2 * 48px));
+    max-width: -moz-calc(calc(3 * 320px) - (2 * 48px));
+    max-width: calc(calc(3 * 320px) - (2 * 48px));
+    padding-left: 48px;
+    padding-right: 48px;
+}
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+#sitehead.wrapper {
+    height: 70%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.site-header {
+    width: 100%;
+    height: 60px;
+    border-top: none;
+    border-bottom: none;
+    padding: 0px;
+    background-color: #e87e00;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-header .page-link:link,
+.site-header .page-link:hover,
+.site-header .page-link:visited,
+.site-header .page-link:active {
+    font-size: 15px;
+    font-family: "OpenSans", sans-serif;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #fafafa;
+}
+.site-title,
+.site-title:link,
+.site-title:visited,
+.site-title a:active,
+.site-title a:hover {
+    font-family: "SiteTitleFont", Helvetica;
+    float: none;
+    color: #fafafa;
+    font-size: 45px;
+}
+@media screen and (max-width: 600px) {
+    .site-nav {
+        border-radius: 0px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        margin-top: 2px;
+        background-color: #222;
+        border: 0px;
+    }
+    .site-nav .menu-icon {
+        background-color: #e87e00;
+    }
+    .site-nav .menu-icon > svg {
+        fill: #fafafa;
+    }
+    .site-nav input:checked ~ label > .menu-icon {
+        background-color: #222;
+    }
+}
+@media screen and (min-width: 600px) {
+    .site-nav {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.site-nav .page-link-wrapper:not(:last-child) {
+    margin-right: 16px;
+}
+@media screen and (max-width: 600px) {
+    .site-nav .page-link-wrapper:not(:last-child) {
+        margin-right: 0px;
+    }
+}
+.page-link-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline;
+}
+#site-title-logo-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+#site-logo-img {
+    height: 45px;
+    height: 42px;
+    vertical-align: middle;
+}
+.current-page {
+    border-bottom: 4px solid #448bb1;
+    padding-bottom: 5px;
+}
+#banner-header,
+.page-content {
+    background-color: #eaeaea;
+}
+#banner {
+    max-width: calc(3 * 320px);
+    max-height: 320px;
+    height: 33.33vw;
+    background-color: #eaeaea;
+    background-size: contain;
+}
+#banner-header > .wrapper {
+    padding: 0px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.page-content {
+    padding-top: 0px;
+}
+.page-content > .wrapper {
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: 1px solid #ccc;
+}
+table#instructor_table td,
+table#instructor_table {
+    border: none;
+}
+table#instructor_table tr.instructor_table_row {
+    background-color: #fafafa;
+}
+.instructor_img_td {
+    width: 200px;
+}
+img.instructor_img {
+    width: 95%;
+}
+table#instructor_table td {
+    vertical-align: top;
+}
+.logo-banner {
+    display: block;
+    border: 1px solid #333;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonial_author {
+    font-style: italic;
+}
+.youtubevideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
