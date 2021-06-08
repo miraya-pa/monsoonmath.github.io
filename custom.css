@@ -205,7 +205,7 @@ table td {
 .site-nav .page-link:not(:last-child) {
     margin-right: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .site-nav {
         position: absolute;
         top: 9px;
@@ -497,7 +497,7 @@ a:hover {
         font-size: 20px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .site-nav {
         border-radius: 0px;
         position: relative;
@@ -517,7 +517,7 @@ a:hover {
         background-color: #222;
     }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .site-nav {
         position: relative;
         top: 50%;
@@ -527,7 +527,7 @@ a:hover {
 .site-nav .page-link-wrapper:not(:last-child) {
     margin-right: 16px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .site-nav .page-link-wrapper:not(:last-child) {
         margin-right: 0px;
     }
